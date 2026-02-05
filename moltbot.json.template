@@ -7,5 +7,14 @@
   "gateway": {
     "port": 18789,
     "mode": "local"
+  },
+  "mcpServers": {
+    "phantom": {
+      "command": "npx",
+      "args": ["-y", "@phantom/mcp-server"],
+      "env": {
+        "PHANTOM_APP_ID": "YOUR_PHANTOM_APP_ID"
+      }
+    }
   }
 }

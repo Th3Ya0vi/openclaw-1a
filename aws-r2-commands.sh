@@ -23,4 +23,4 @@ aws s3 rm s3://${BUCKET_NAME}/ --recursive --endpoint-url "$R2_ENDPOINT"
 # Sync local dir to R2
 # aws s3 sync ./local-dir s3://moltbot-data/remote-path/ --endpoint-url "$R2_ENDPOINT"
 
-wrangler r2 bucket delete ${BUCKET_NAME}
+# wrangler r2 bucket delete ${BUCKET_NAME}
